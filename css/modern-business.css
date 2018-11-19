@@ -6,6 +6,7 @@
 
 body {
   padding-top: 54px;
+  background-color: lightblue;
 }
 
 @media (min-width: 992px) {
@@ -26,4 +27,5 @@ body {
 
 .portfolio-item {
   margin-bottom: 30px;
+  
 }

@@ -6,12 +6,13 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-  <!-- TODO: Add proper viewport meta tag to make page properly display on mobile devices. -->
 
-  <meta name="description" content="">
-  <meta name="author" content="">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-  <title>Modern Business - Start Bootstrap Template</title>
+  <meta name="description" content="Game Stream">
+  <meta name="author" content="Douglas Jones">
+
+  <title>Game Stream</title>
 
   <!-- Bootstrap core CSS -->
   <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -24,12 +25,35 @@
 <body>
 
   <!-- (1)Navigation -->
-  <!-- TODO implement responsive navigation that matches your IA design -->
-  <!-- TODO put this nav on every page -->
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
-    
-  </nav>
 
+      <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="index.html">Game Stream</a>
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="services.html">Subscription</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="faq.html">Games</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact</a>
+              </div>
+          
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+<!-- end nav-->
   <header>
     <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
       <ol class="carousel-indicators">
@@ -40,25 +64,25 @@
 
       <!-- Wrapper for slides -->
 
-      <!-- TODO: (2)Add images to your repository and update this code so the carousel has proper slides. -->
+      
 
       <div class="carousel-inner" role="listbox">
         <!-- Slide One - Set the background image for this slide in the line below -->
-        <div class="carousel-item active" style="background-image: url('http://placehold.it/1900x1080')">
+        <div class="carousel-item active" style="background-image: url('images/game1.jpg')">
           <div class="carousel-caption d-none d-md-block">
             <h3>First Slide</h3>
             <p>This is a description for the first slide.</p>
           </div>
         </div>
         <!-- Slide Two - Set the background image for this slide in the line below -->
-        <div class="carousel-item" style="background-image: url('http://placehold.it/1900x1080')">
+        <div class="carousel-item" style="background-image: url('images/carousel/c2.jpg')">
           <div class="carousel-caption d-none d-md-block">
             <h3>Second Slide</h3>
             <p>This is a description for the second slide.</p>
           </div>
         </div>
         <!-- Slide Three - Set the background image for this slide in the line below -->
-        <div class="carousel-item" style="background-image: url('http://placehold.it/1900x1080')">
+        <div class="carousel-item" style="background-image: url('images/carousel/c3.jpg')">
           <div class="carousel-caption d-none d-md-block">
             <h3>Third Slide</h3>
             <p>This is a description for the third slide.</p>
@@ -121,18 +145,13 @@
     <!-- /.row -->
 
 
-    <!-- Portfolio Section -->
-    <!-- (3)TODO: Add the proper "row" and "col" classes to make this display work the way it should. -->
-    <!-- This section shoudld be contained in a row. -->
-    <!-- This section should have columns that are 4 units wide at size "md" and above, but 6 units wide at size "sm" and below. -->
-
     <h2>Portfolio Heading</h2>
 
     <div class="row">
-      <div class="portfolio-item">
+      <div class="portfolio-item col-sm-6 col-md-4">
         <div class="card h-100">
           <a href="#">
-            <img class="card-img-top" src="http://placehold.it/700x450" alt="">
+            <img class="card-img-top" src="images/p1.jpg" alt="">
           </a>
           <div class="card-body">
             <h4 class="card-title">
@@ -143,10 +162,10 @@
           </div>
         </div>
       </div>
-      <div class="portfolio-item">
+      <div class="portfolio-item col-sm-6 col-md-4">
         <div class="card h-100">
           <a href="#">
-            <img class="card-img-top" src="http://placehold.it/700x450" alt="">
+            <img class="card-img-top" src="images/p2.jpg" alt="">
           </a>
           <div class="card-body">
             <h4 class="card-title">
@@ -157,10 +176,10 @@
           </div>
         </div>
       </div>
-      <div class="portfolio-item">
+      <div class="portfolio-item col-sm-6 col-md-4">
         <div class="card h-100">
           <a href="#">
-            <img class="card-img-top" src="http://placehold.it/700x450" alt="">
+            <img class="card-img-top" src="images/p3.jpeg" alt="">
           </a>
           <div class="card-body">
             <h4 class="card-title">
@@ -171,10 +190,10 @@
           </div>
         </div>
       </div>
-      <div class="portfolio-item">
+      <div class="portfolio-item col-sm-6 col-md-4">
         <div class="card h-100">
           <a href="#">
-            <img class="card-img-top" src="http://placehold.it/700x450" alt="">
+            <img class="card-img-top" src="images/p4.jpeg" alt="">
           </a>
           <div class="card-body">
             <h4 class="card-title">
@@ -185,10 +204,10 @@
           </div>
         </div>
       </div>
-      <div class="portfolio-item">
+      <div class="portfolio-item col-sm-6 col-md-4">
         <div class="card h-100">
           <a href="#">
-            <img class="card-img-top" src="http://placehold.it/700x450" alt="">
+            <img class="card-img-top" src="images/p5.jpeg" alt="">
           </a>
           <div class="card-body">
             <h4 class="card-title">
@@ -199,10 +218,10 @@
           </div>
         </div>
       </div>
-      <div class="portfolio-item">
+      <div class="portfolio-item col-sm-6 col-md-4">
         <div class="card h-100">
           <a href="#">
-            <img class="card-img-top" src="http://placehold.it/700x450" alt="">
+            <img class="card-img-top" src="images/p6.jpeg" alt="">
           </a>
           <div class="card-body">
             <h4 class="card-title">
@@ -257,12 +276,12 @@
 
   <!-- Footer -->
   <footer class="py-5 bg-dark">
-    <!-- (4)TODO User flex-box to replace the centered paragraph with copyright and date with 2 paragraphs: the first paragraph is left aligned and contains copyright and date 
-      and one that is right aligned and contains your name.
-      Put the footer on every page.
-    -->
+  
     <div class="container">
-      <p class="m-0 text-center text-white">Copyright &copy; Your Website 2018</p>
+    <div class="footer-flex"
+      <p class="footer-flex-item-flex-white">Copyright &copy; Game Stream 2018</p>
+    <p class="footer-flex-item-flex-whitee">Douglas Jones</p>
+    </div>
     </div>
     <!-- /.container -->
   </footer>
